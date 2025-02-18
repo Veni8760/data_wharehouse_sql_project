@@ -22,7 +22,7 @@ This project involves:
 
 Build a data warehouse using SQL server to consolidate sales data, enabling  informed decision-making and analytical reporting
 
-###$ Specifications
+#### Specifications
 - **Data Sources**: From two source systems (ERP and CRM) import data which are provided as CSV files.
 - **Data Quality**: Cleanse and resolve data quality issues to analysis
 - **Integration**: Combine both sources into single, user-friendly data model designed for analytical queries
