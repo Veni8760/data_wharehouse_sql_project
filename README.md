@@ -14,7 +14,7 @@ This project involves:
 
 
 
-## Requiremnets
+## 🚀 Requiremnets
 
 ### Building a Data Warehouse 
 
@@ -39,3 +39,133 @@ Develop SQL-based analytics to deliver detailed insights into:
 -**Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
+🏗️ Data Architecture
+
+The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
+![DATAARCHITECTURE drawio](https://github.com/user-attachments/assets/65e2b1d1-879b-461f-81ae-ccb8ec154d47)
+
+![DataMartStarSchema drawio](https://github.com/user-attachments/assets/2c4bdaf6-d896-4fed-aaf7-f72621783b00)
+
+![DataFlow drawio](https://github.com/user-attachments/assets/e24d7a2f-718b-43f9-8f45-80a57d57e1ab)
+
+![Integration_Model drawio](https://github.com/user-attachments/assets/1494ee0b-32ef-4a49-a27e-ca833b2ce885)
+
+
+# 🏢 Data Warehouse and Analytics Project
+
+## 📌 Overview
+Welcome to the **Data Warehouse and Analytics Project**! 🚀  
+This project demonstrates a **comprehensive data warehousing and analytics solution**, from **building a data warehouse** to **generating actionable insights**.
+
+### **💡 Key Highlights**
+- **Data Architecture:** Implements **Medallion Architecture** (Bronze, Silver, and Gold layers).
+- **ETL Pipelines:** Extract, transform, and load (ETL) data from source systems into a structured warehouse.
+- **Data Modeling:** Optimized **star schema** for analytical queries.
+- **Analytics & Reporting:** Uses **SQL-based reports** and dashboards for **business insights**.
+
+## 🏗️ Data Architecture  
+This project follows the **Medallion Architecture** (Bronze, Silver, Gold layers) to ensure efficient **data processing, storage, and analytics**.
+
+### **🔹 Bronze Layer (Raw Data)**
+- Stores **raw data as-is** from source systems (CSV files).
+- No transformations or processing applied.
+- Acts as a **landing zone** for all source data.
+
+### **🔸 Silver Layer (Transformed Data)**
+- **Cleansed, standardized, and normalized** data.
+- Data transformations applied to ensure **data quality**.
+- Combines multiple sources (ERP & CRM) into a **structured format**.
+
+### **🟡 Gold Layer (Business-Ready Data)**
+- **Optimized for reporting and analytics**.
+- Implements **Star Schema** with **Fact & Dimension tables**.
+- Used for **BI reports, dashboards, and insights**.
+
+## 🖥️ **Data Flow & Architecture Diagrams**
+![Data Architecture](https://github.com/user-attachments/assets/65e2b1d1-879b-461f-81ae-ccb8ec154d47)
+![DataMart Star Schema](https://github.com/user-attachments/assets/2c4bdaf6-d896-4fed-aaf7-f72621783b00)
+![Data Flow](https://github.com/user-attachments/assets/e24d7a2f-718b-43f9-8f45-80a57d57e1ab)
+![Integration Model](https://github.com/user-attachments/assets/1494ee0b-32ef-4a49-a27e-ca833b2ce885)
+
+---
+
+## 📖 **Project Scope & Features**
+### **✅ Data Engineering & Warehouse Development**
+- Build a **Modern Data Warehouse** using **SQL Server**.
+- Consolidate **ERP & CRM sales data** for analytics.
+- Ensure **data quality** before analysis.
+- Document the **data model** for stakeholders.
+
+### **✅ ETL Pipelines**
+- **Extract**: Load CSV data into the **SQL Server database**.
+- **Transform**: Clean, standardize, and normalize the data.
+- **Load**: Store **business-ready data** in optimized **fact & dimension tables**.
+
+### **✅ Data Modeling**
+- Uses **Star Schema** for fast analytical queries.
+- Creates **Fact Tables (Sales, Orders, etc.)**.
+- Develops **Dimension Tables (Customers, Products, Dates, etc.)**.
+
+### **✅ Analytics & Reporting**
+- Write **SQL queries** for **business insights**.
+- Enable **ad-hoc reporting** for decision-making.
+
+---
+
+## 🛠️ **Tech Stack & Tools**
+Everything used in this project is **free** and open-source.
+
+| Tool | Purpose |
+|------|---------|
+| **SQL Server Express** | Lightweight database for hosting the Data Warehouse |
+| **SQL Server Management Studio (SSMS)** | GUI tool for managing & querying SQL Server |
+| **Git & GitHub** | Version control & collaboration |
+| **DrawIO** | Creating Data Flow, Star Schema, and Integration diagrams |
+| **Notion** | Project planning and documentation |
+| **CSV Files** | Source data from ERP & CRM systems |
+
+---
+
+## 🚀 **Project Setup & Requirements**
+### **1️⃣ Install Required Tools**
+- [Download SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+- [Download SQL Server Management Studio (SSMS)](https://aka.ms/ssmsfullsetup)
+- [Install Git & Set Up GitHub](https://git-scm.com/downloads)
+- Install **DrawIO** for **Data Flow diagrams**.
+- Use **Notion** for documentation (optional).
+
+### **2️⃣ Set Up Database & Tables**
+- Create the **Data Warehouse (`DataWarehouse`)** in SQL Server.
+- Run the **DDL scripts** to create tables.
+- Load CSV data into the **Bronze Layer**.
+
+### **3️⃣ Execute ETL Process**
+- Run **SQL scripts** to **transform and clean data** (Silver Layer).
+- Create **Fact & Dimension tables** in the **Gold Layer**.
+
+### **4️⃣ Run Analytics & Queries**
+- Use **SQL queries** to generate reports.
+- Build **dashboards** using BI tools.
+
+---
+
+## 🎯 **Who is This Project For?**
+This project is a great portfolio piece for:
+✅ **SQL Developers**  
+✅ **Data Engineers**  
+✅ **ETL Pipeline Developers**  
+✅ **Data Analysts**  
+✅ **Aspiring Data Architects**  
+
+---
+
+## 📂 **Project Structure**
+```bash
+📦 DataWarehouse-Project
+├── 📂 datasets                 # Raw CSV data (ERP & CRM)
+├── 📂 sql_scripts              # SQL DDL & ETL scripts
+├── 📂 diagrams                 # Architecture & Data Flow Diagrams
+├── 📂 reports                  # SQL Reports & Queries
+├── 📜 README.md                # Project Documentation
+└── 📜 LICENSE                  # Open-source License
