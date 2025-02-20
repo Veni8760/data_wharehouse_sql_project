@@ -1,4 +1,4 @@
-# Data Warehouse and Analytics Project 
+#🏢 Data Warehouse and Analytics Project 
 
 The project is a data whare housing and analytics solution. Building a data warehouse to generate actionable insight. This project higlights industry practices in data engineering and analytics.
 
@@ -10,9 +10,6 @@ This project involves:
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
-
-
-
 
 ## 🚀 Requiremnets
 
@@ -40,39 +37,15 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-🏗️ Data Architecture
-
-The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
-![DATAARCHITECTURE drawio](https://github.com/user-attachments/assets/65e2b1d1-879b-461f-81ae-ccb8ec154d47)
-
-![DataMartStarSchema drawio](https://github.com/user-attachments/assets/2c4bdaf6-d896-4fed-aaf7-f72621783b00)
-
-![DataFlow drawio](https://github.com/user-attachments/assets/e24d7a2f-718b-43f9-8f45-80a57d57e1ab)
-
-![Integration_Model drawio](https://github.com/user-attachments/assets/1494ee0b-32ef-4a49-a27e-ca833b2ce885)
-
-
-# 🏢 Data Warehouse and Analytics Project
-
-## 📌 Overview
-Welcome to the **Data Warehouse and Analytics Project**! 🚀  
-This project demonstrates a **comprehensive data warehousing and analytics solution**, from **building a data warehouse** to **generating actionable insights**.
-
-### **💡 Key Highlights**
-- **Data Architecture:** Implements **Medallion Architecture** (Bronze, Silver, and Gold layers).
-- **ETL Pipelines:** Extract, transform, and load (ETL) data from source systems into a structured warehouse.
-- **Data Modeling:** Optimized **star schema** for analytical queries.
-- **Analytics & Reporting:** Uses **SQL-based reports** and dashboards for **business insights**.
-
 ## 🏗️ Data Architecture  
 This project follows the **Medallion Architecture** (Bronze, Silver, Gold layers) to ensure efficient **data processing, storage, and analytics**.
 
-### **🔹 Bronze Layer (Raw Data)**
+### **🔸 Bronze Layer (Raw Data)**
 - Stores **raw data as-is** from source systems (CSV files).
 - No transformations or processing applied.
 - Acts as a **landing zone** for all source data.
 
-### **🔸 Silver Layer (Transformed Data)**
+### **🔸 ⚪ Silver Layer (Transformed Data)**
 - **Cleansed, standardized, and normalized** data.
 - Data transformations applied to ensure **data quality**.
 - Combines multiple sources (ERP & CRM) into a **structured format**.
@@ -122,7 +95,7 @@ Everything used in this project is **free** and open-source.
 | **SQL Server Management Studio (SSMS)** | GUI tool for managing & querying SQL Server |
 | **Git & GitHub** | Version control & collaboration |
 | **DrawIO** | Creating Data Flow, Star Schema, and Integration diagrams |
-| **Notion** | Project planning and documentation |
+| **Notion** | Project planning and documentation Here is the link to my notion https://www.notion.so/Data-Warehouse-Project-19eb17e7381b80e59f21c1d2341adaeb?pvs=4|
 | **CSV Files** | Source data from ERP & CRM systems |
 
 ---
@@ -147,25 +120,25 @@ Everything used in this project is **free** and open-source.
 ### **4️⃣ Run Analytics & Queries**
 - Use **SQL queries** to generate reports.
 - Build **dashboards** using BI tools.
-
----
-
-## 🎯 **Who is This Project For?**
-This project is a great portfolio piece for:
-✅ **SQL Developers**  
-✅ **Data Engineers**  
-✅ **ETL Pipeline Developers**  
-✅ **Data Analysts**  
-✅ **Aspiring Data Architects**  
-
 ---
 
 ## 📂 **Project Structure**
 ```bash
-📦 DataWarehouse-Project
-├── 📂 datasets                 # Raw CSV data (ERP & CRM)
-├── 📂 sql_scripts              # SQL DDL & ETL scripts
-├── 📂 diagrams                 # Architecture & Data Flow Diagrams
-├── 📂 reports                  # SQL Reports & Queries
-├── 📜 README.md                # Project Documentation
-└── 📜 LICENSE                  # Open-source License
+
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details and DraIO
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
