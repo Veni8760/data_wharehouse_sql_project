@@ -59,7 +59,7 @@ This project follows the **Medallion Architecture** (Bronze, Silver, Gold layers
 ![Data Architecture](https://github.com/user-attachments/assets/65e2b1d1-879b-461f-81ae-ccb8ec154d47)
 ![DataMart Star Schema](https://github.com/user-attachments/assets/2c4bdaf6-d896-4fed-aaf7-f72621783b00)
 ![Data Flow](https://github.com/user-attachments/assets/e24d7a2f-718b-43f9-8f45-80a57d57e1ab)
-![Integration Model](https://github.com/user-attachments/assets/1494ee0b-32ef-4a49-a27e-ca833b2ce885)
+![Integration_Model drawio (1)](https://github.com/user-attachments/assets/06ddb552-4248-4bdc-8660-50a5aa40496c)
 
 ---
 
