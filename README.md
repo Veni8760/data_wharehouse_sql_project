@@ -45,7 +45,7 @@ This project follows the **Medallion Architecture** (Bronze, Silver, Gold layers
 - No transformations or processing applied.
 - Acts as a **landing zone** for all source data.
 
-### **🔸 ⚪ Silver Layer (Transformed Data)**
+### **⚪ Silver Layer (Transformed Data)**
 - **Cleansed, standardized, and normalized** data.
 - Data transformations applied to ensure **data quality**.
 - Combines multiple sources (ERP & CRM) into a **structured format**.
